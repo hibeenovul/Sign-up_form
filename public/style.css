@@ -1,0 +1,222 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.first-container
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.picture-side
+{
+    width: 550px;
+    display: grid;
+}
+.picture-side img
+{
+    width: 550px;
+    height: 970px;
+}
+.odin-picture
+{
+    background-color: rgba(255, 255, 255, 0.062);
+    position:absolute;
+    width: 550px;
+    top: 20%;
+    display: flex;
+}
+.odin-picture img
+{
+    width: 70px;
+    height: 100px;
+    margin-left: 170px;
+}
+.text
+{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.second-side
+{
+    width: 100%;
+    background-color:  lightblue;
+    display: grid;
+}
+.text-area
+{
+    width: 100%;
+    height: 280px;
+}
+.form
+{
+    border: 2px solid;
+    border-style: groove;
+    width: 1300px;
+    position: absolute;
+    top: 30%;
+    font-weight: lighter;
+    background-color:  lightblue;
+}
+.form-arrangement
+{
+    display: grid;
+    gap: 20px;
+    height: 330px;
+    margin-left: 40px;
+
+}
+.first-last, .second-third,
+.forth-fifth
+{
+    display: flex;
+    gap: 100px;
+}
+label 
+{
+    display: block;
+}
+input 
+{
+    width: 300px;
+    border: 2px solid ;
+    border-radius: 4px;
+    height: 25px;
+    background-color: lightblue;
+}
+.third-container
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+button 
+{
+    background-color: rgba(0, 128, 0, 0.849);
+    border-radius: 8px;
+    border: 2px;
+    position:relative;
+    height: 50px;
+    width: 250px;
+    margin-left: 40px;
+    top: 80px;
+}
+a
+{
+    color: rgba(0, 128, 0, 0.849);
+}
+.h4-container
+{
+    position: absolute;
+    margin-top: 140px;
+}
+h4
+{
+    margin-left: 40px;
+    font-weight: 50px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        background-color:  lightblue;
+    }
+    .first-container
+    {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .picture-side
+    {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    .second-side
+    {
+        width: 768px;
+        background-color:  lightblue;
+    }
+    .form
+    {
+        height: auto;
+        width: 768px;
+        position: relative;
+    }
+    .picture-side img
+    {
+        flex-direction: column;
+        width: 768px;
+        height: auto;
+    }
+    .text-area
+    {
+        width: 768px;
+        height: 280px;
+    }
+    .odin-picture img
+    {   
+        width: 100px;
+        height: 100%;
+        margin-left: 210px;
+    }
+    .form-arrangement
+    {
+        width: 768px;
+        height: 100%;
+    }
+    .first-last, .second-third,
+    .forth-fifth
+    {
+        width: 768px;
+        height: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .text-area
+    {
+        width: 100%;
+        height: 280px;
+    }
+    .third-container
+    {
+        width: 768px;
+        height: 100%;
+        display: grid;
+        margin-top: 100px;
+    }
+    .h4-container
+    {
+        width: 768px;
+    }
+}
+@media screen and (min-width: 1024px)
+{
+    body
+    {
+        background-color:  lightblue;
+    }
+    .first-container
+    {
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .picture-side
+    {
+        width: auto;
+        display: grid;
+    }
+    
+}
+                                                                  
+   
+
