@@ -214,7 +214,26 @@ h4
     {
         width: auto;
         display: grid;
+        height: auto;
     }
+    .second-side
+    {
+        width: 1024px;
+        background-color:  lightblue;
+    }
+    .picture-side img
+    {
+        width: 550px;
+        height: 970px;
+    }
+    .odin-picture img
+    {
+        width: 70px;
+        height: 100px;
+        margin-left: 170px;
+    }
+
+
     
 }
                                                                   
