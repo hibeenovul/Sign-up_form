@@ -126,23 +126,25 @@ h4
     body
     {
         background-color:  lightblue;
+       
     }
     .first-container
     {
         flex-direction: column;
         height: auto;
-        width: auto;
+        width: 810px;
     }
     .picture-side
     {
         flex-direction: column;
         height: auto;
-        width: auto;
+        width: 810px;
     }
     .second-side
     {
         width: 768px;
         background-color:  lightblue;
+        flex-direction: column;
     }
     .form
     {
@@ -153,12 +155,12 @@ h4
     .picture-side img
     {
         flex-direction: column;
-        width: 829px;
+        width: 100%;
         height: auto;
     }
     .text-area
     {
-        width: 829px;
+        width: 768px;
         height: 280px;
     }
     .odin-picture img
@@ -169,13 +171,13 @@ h4
     }
     .form-arrangement
     {
-        width: 829px;
+        width: 768px;
         height: 100%;
     }
     .first-last, .second-third,
     .forth-fifth
     {
-        width: 829px;
+        width: 768px;
         height: 100%;
         flex-direction: column;
         gap: 15px;
@@ -188,7 +190,7 @@ h4
     }
     .third-container
     {
-        width: 829px;
+        width: 768px;
         height: 100%;
         display: grid;
         margin-top: 100px;
