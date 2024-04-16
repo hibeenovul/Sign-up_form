@@ -153,12 +153,12 @@ h4
     .picture-side img
     {
         flex-direction: column;
-        width: 790px;
+        width: 829px;
         height: auto;
     }
     .text-area
     {
-        width: 768px;
+        width: 829px;
         height: 280px;
     }
     .odin-picture img
@@ -169,13 +169,13 @@ h4
     }
     .form-arrangement
     {
-        width: 768px;
+        width: 829px;
         height: 100%;
     }
     .first-last, .second-third,
     .forth-fifth
     {
-        width: 768px;
+        width: 829px;
         height: 100%;
         flex-direction: column;
         gap: 15px;
@@ -188,7 +188,7 @@ h4
     }
     .third-container
     {
-        width: 768px;
+        width: 829px;
         height: 100%;
         display: grid;
         margin-top: 100px;
