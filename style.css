@@ -7,7 +7,7 @@ body
 {
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 2000px;
 }
 .picture-side
 {
@@ -126,6 +126,8 @@ h4
     body
     {
         background-color:  lightblue;
+        height: auto;
+        width: auto;
        
     }
     .first-container
@@ -205,12 +207,15 @@ h4
     body
     {
         background-color:  lightblue;
+        width: auto;
+        height: auto;
     }
     .first-container
     {
         display: flex;
-        height: auto;
-        width: auto;
+        max-height: 1500px;
+        max-width: 2000px;
+        border: 2px solid yellow;
     }
     .picture-side
     {
